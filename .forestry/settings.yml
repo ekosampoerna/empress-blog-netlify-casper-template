@@ -5,12 +5,17 @@ admin_path: admin
 webhook_url: 
 sections:
 - type: directory
-  path: create
-  label: create
+  path: templates
+  label: templates
   create: all
   match: "**/*"
 - type: heading
   label: Sidebar
+- type: directory
+  path: create
+  label: create
+  create: all
+  match: "**/*"
 - type: directory
   path: type
   label: type
